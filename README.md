@@ -1,2 +1,2 @@
-# TIL
-Today I Learned :D
+# Today I Learned
+__"Memo is better than my memory"__
