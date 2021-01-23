@@ -18,8 +18,4 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML">
 
 ---
 분명이 VScode에서 잘 작동하는 걸 확인하고 TIL에 push했는데 github에서는 작동하지 않았다.  
-아마 밑에 위의 js 코드를 넣어야 작동하는 듯 하다.
-
-<script type="text/javascript" 
-src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML">
-</script>
+아마 위의 js 코드를 넣어야 작동하는 듯 하다.
