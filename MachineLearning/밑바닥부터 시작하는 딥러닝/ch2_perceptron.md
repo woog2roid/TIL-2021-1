@@ -12,10 +12,6 @@ __다수의 신호를 입력으로 받아 하나의 신호를 출력__
 
 ---
 
-<script type="text/javascript" 
-src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML">
-$$ y = 0 (-0.5 + x_1 + x_2 < 0) $$
-$$ y = 1(-0.5 + x_1 + x_2 >0)$$
-</script>
-
-OR 게이트를 퍼셉트론으로 표현하게 되면 이렇게 된다.
+OR 게이트를 퍼셉트론으로 표현하게 되면 이렇게 된다.  
+y = 0 (-0.5 + x_1 + x_2 < 0)  
+y = 1(-0.5 + x_1 + x_2 >0)  
