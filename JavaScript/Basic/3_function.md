@@ -60,7 +60,7 @@ __함수는 객체이기 때문에 프로퍼티를 갖는다.__
 |prototype|함수가 객체를 생성하는 생성자 함수일 때, 생성한 인스턴스의 프로토타입 객체|
 
 ## 함수 종류
-__즉시 실행 함수__
+__즉시 실행 함수__ _함수의 정의와 동시에 실행되는 함수_
 ```javascript
 // 기명 즉시 실행 함수(named immediately-invoked function expression)
 (function myFunction() {
