@@ -79,11 +79,15 @@ int main(void){
     //참조
     v.front();
     v.back();
+    v.at(k);
     //iterator
     v.begin();
     v.end();
     // 벡터의 크기
     v.size();
+    //삭제
+    v.erase(v.begin() + k); //k번째 index 삭제
+    v.erase(v.begin() + i, v.begin() + j) //i~j 모두 삭제
 }
 ```
 
