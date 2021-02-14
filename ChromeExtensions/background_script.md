@@ -4,6 +4,8 @@
 
 storage API 등 대부분의 chrome API 이용하는 액션들은 background script에서만 가능함
 - content script에서 이벤트를 발생시키고 background script에서 받아서 실행하는 형태로 코딩
+
+> content script는 popup.js랑 다르다... extension에서 tab/window에 접근하면 NULL이 나옴!!! (by 경험담)
 ```javascript
 // contentscript.js
 chrome.runtime.sendMessage({action: "FINISH"}, function(response) {
@@ -15,7 +17,7 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
     console.log(sender.tab ?
         "from a content script:" + sender.tab.url :
         "from the extension");
-        //sender.tab은 tab ID를 의미함
+        //sender.tab은 tab이 NULL인지 아닌지
 
     if (request.action === "FINISH")
         sendResponse({farewell: "goodbye"});
