@@ -5,7 +5,6 @@
 storage API 등 대부분의 chrome API 이용하는 액션들은 background script에서만 가능함
 - content script에서 이벤트를 발생시키고 background script에서 받아서 실행하는 형태로 코딩
 
-> content script는 popup.js랑 다르다... extension에서 tab/window에 접근하면 NULL이 나옴!!! (by 경험담)
 ```javascript
 // contentscript.js
 chrome.runtime.sendMessage({action: "FINISH"}, function(response) {
@@ -33,7 +32,6 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
 persistent는 event pages를 의미한다.
 - true라면 항상 돌아가는 background page이고, false라면 event 기반으로 돌아가는 event page가 된다. 
 - 화면에서 돌아가는 webRequest를 받기 위해서는 true를 해야한다고 한다...
-
 
 ## 참고한 자료
 - [Google Dev: background](https://developer.chrome.com/docs/extensions/mv2/background_pages/)
