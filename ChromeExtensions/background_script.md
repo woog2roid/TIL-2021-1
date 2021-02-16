@@ -2,7 +2,7 @@
 - background script는 chrome://extension의 백그라운드에 로그가 찍힘
 - content script는 크롬 익스텐션 화면의 개발자 도구에 로그가 찍힘
 
-storage API 등 대부분의 chrome API 이용하는 액션들은 background script에서만 가능함
+(storage API는 제외) 대부분의 chrome API 이용하는 액션들은 background script에서만 가능함
 - content script에서 이벤트를 발생시키고 background script에서 받아서 실행하는 형태로 코딩
 
 ```javascript
