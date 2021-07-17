@@ -78,3 +78,9 @@ void BFS(int start, int size)
 [토마토](https://github.com/woog2roid/PS-in-army.../blob/main/7569.cpp)  
 x,y가 아니라 그냥 문제에서 주는 변수들로 써야겠다고 생각하게 한 문제,,, 3차원쯤 되고 하니까 ijk로는 헷갈리고 mnh와 xyz가 겹치니 조금 헷갈렸다.
 그래도 문제는 변수명이 아니라 check함수에 있었긴 했다.
+
+[미로 탈출하기](https://www.acmicpc.net/problem/17090):[코드](https://github.com/woog2roid/PS-in-army.../blob/main/17090.cpp)  
+왜 DP로 분류되었을까 싶었는데, 메모를 하는 것이 DP라면 DP일수도...?  
+DFS로 쭈욱 탐색하고 재귀적으로 끝부터 돌아오는 방식을 택했다.  
+그 이후에는 이미 탐색한 곳이면 탐색하지 않고 배열에 값을 넣어주었다.  
+이것 때문에 DP로 분류된 듯 하다.
